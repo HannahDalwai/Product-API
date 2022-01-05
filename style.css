@@ -1,23 +1,20 @@
 html, body {
   height: 100%;
   padding-top: 10px;
-  background: linear-gradient(to bottom right,rgb(157, 183, 209),#7fcc7f);
+  background: linear-gradient(to bottom right,#,#7fcc7f);
 }
 
 
-
-::after #card{
-  border-radius: 20px;
-  border: 1px solid #EE8130;
-  margin-bottom: 2.5rem;
-  background: none;
+#container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: Poppins, "sans-serif";
+  font-weight: 500;
 }
-
-::after #card{
-  border-color: #;
-  
-  .card-image-container {
-    position: absolute;
-    width: 290px;
-    top: -85px;
-  }
+button {
+  color: #7fcc7f;
+}

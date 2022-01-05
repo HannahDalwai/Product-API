@@ -4,7 +4,7 @@ fetch("https://pokeapi.co/api/v2/pokemon")
   console.log(pokemonList);
   pokemonList.results.forEach(pokemon => {
     document.querySelector("#list").innerHTML +=`
-    <button onclick="getData('${ pokemon.url }')">${pokemon.name}</button>
+    <button id="btn" onclick="getData('${ pokemon.url }')">${pokemon.name}</button>
     `
   })
 });
@@ -18,7 +18,12 @@ fetch(url)
   document.querySelector("#results").innerHTML = `
   <img scr= "${pokemon.sprites.front_default}" alt="" >
   <h1>${pokemon.name} </h1>
-  <h4>Ability : ${pokemon.abilities[0].ability.name}</h4>
+  <h4> Ability : ${pokemon.abilities[0].ability.name} </h4>
+  <h4> Weight : ${pokemon.weight} </h4>
+  <h4> Height : ${pokemon.height} </h4>
+
+
+
   `;
 })
       };
