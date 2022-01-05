@@ -6,14 +6,14 @@ html, body {
 
 
 
-#card{
+::after #card{
   border-radius: 20px;
   border: 1px solid #EE8130;
   margin-bottom: 2.5rem;
   background: none;
 }
 
-.pokemon .card--charizard {
+::after #card{
   border-color: #;
   
   .card-image-container {
