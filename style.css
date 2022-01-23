@@ -18,3 +18,32 @@ html, body {
 button {
   color: #7fcc7f;
 }
+.btn-cool-blues {
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  border: 3px solid #eee;
+}
+/* input {
+  margin-left:40%;
+} */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  background-color: #222;
+  transition: all 0.3s linear;
+}
